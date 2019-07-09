@@ -43,10 +43,7 @@ class CronEmail extends Command
      */
     public function handle()
     {   
-       
-        /*dd('CronEmail shell called');*/
 
-        /**/
         $all_logs=DB::table('email_logs')
                 ->select('*')
                 ->get();
@@ -181,7 +178,7 @@ class CronEmail extends Command
                                      ->update(array('last_run' =>date('Y-m-d H:i:s') ));
                 }
 
-              //  echo "cron completed";
+             
             }
             dump("cron completed");
         }
