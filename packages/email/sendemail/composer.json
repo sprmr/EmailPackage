@@ -1,0 +1,7 @@
+{
+    "name": "email/sendemail",
+    "description": "This package is used to send emails through cron.",
+    "type": "lobrary",
+    "minimum-stability": "dev",
+    "require": {}
+}
